@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    align-items: center;
+    -webkit-align-items: center;
+    font-size: 1.3em;
+    background-color: #3d74a7;
+}
+
+h2 {
+    text-align: center;
+}
+
+#wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+#word {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#title {
+    margin-right: auto;
+    margin-left: 0.5em;
+    color: white;
+    font-size: 1.7em;
+}
+
+form {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 0.5em;
+    color: white;
+}
+
+p,
+form {
+    font-size: 1.2em;
+}
+
+.info {
+    display: none;
+}
