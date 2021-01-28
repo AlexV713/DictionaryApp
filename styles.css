@@ -48,4 +48,41 @@ body {
   color: white;
   cursor: pointer;
 }
+
+#definition-header {
+  text-align: center;
+  background-color: #3d74a7;
+  padding: 0.5em;
+  font-size: 1.3em;
+}
+
+#definition-header a {
+  color: white;
+  text-decoration: none;
+}
+
+#definition-header a:hover {
+  opacity: 0.5;
+}
+
+#wrapper {
+  font-size: 1.2em;
+}
+
+#wrapper #word {
+  text-align: center;
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+#wrapper #info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#wrapper p {
+  text-align: left;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -26,14 +26,19 @@
             <!-- This is where we loop through the results of our API call if it was successful. -->
             <section v-if="info">
                 <!-- My Code -->
+                <header id="definition-header">
+                    <h1 id="title"><a href="index.html">Merriam Webster Dictionary</a></h1>
+                </header>
                 <div id="wrapper">
-                    <h1 id="word">{{ info.data[1].hwi.hw }}</h1>
-                    <p><strong>Definition 1:</strong> {{ info.data[0].shortdef[0] }}</p>
-                    <p><strong>Definition 2:</strong> {{ info.data[0].shortdef[1] }}</p>
-                    <p><strong>pronunciation:</strong> {{ info.data[0].hwi.hw }}</p>
-                    <p id="stems"><strong>Stems:</strong> {{ info.data[0].meta.stems[1] }},
-                        {{ info.data[0].meta.stems[2] }}</p>
-                    <p><strong>Word Class:</strong> {{ info.data[0].fl }}</p>
+                    <h2 id="word">{{ info.data[1].hwi.hw }}</h2>
+                    <div id="info">
+                        <p><strong>Definition 1:</strong> {{ info.data[0].shortdef[0] }}</p>
+                        <p><strong>Definition 2:</strong> {{ info.data[0].shortdef[1] }}</p>
+                        <p><strong>pronunciation:</strong> {{ info.data[0].hwi.hw }}</p>
+                        <p id="stems"><strong>Stems:</strong> {{ info.data[0].meta.stems[1] }},
+                            {{ info.data[0].meta.stems[2] }}</p>
+                        <p><strong>Word Class:</strong> {{ info.data[0].fl }}</p>
+                    </div>
                 </div>
                 <!-- My Code End -->
                 <h2 class="info">Raw data from the API call (remove when you are done developing this page)</h2>
