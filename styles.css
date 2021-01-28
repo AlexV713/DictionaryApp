@@ -85,4 +85,8 @@ body {
 #wrapper p {
   text-align: left;
 }
+
+.data {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */
