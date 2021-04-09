@@ -67,17 +67,11 @@
             mounted() {
                 axios
 
-                    // OPTION 2
                     // MERRIAM WEBSTER DICTIONARY - https://dictionaryapi.com/products/json
-                    // This one requires a query string in the URL called word
-                    // which is the word you want a definition for
-                    // Feel free to borrow my API key for now, but get your own at
                     // https://dictionaryapi.com/
-                    // Depending on how much detail you want, this one could be challenging!
-                    // Refer to the documentation
 
                     .get("https://dictionaryapi.com/api/v3/references/collegiate/json/" + this.$route.query
-                        .word + "?key=fecdee74-1de2-45aa-b460-85c1238457d5")
+                        .word + "?key=e27ff8e6-f296-45a3-89e8-98c77af6c036")
 
                     .then(response => {
                         this.info = response
