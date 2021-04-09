@@ -1,67 +1,54 @@
-body {
-    padding: 0;
+body,
+html {
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     background-color: #fefefe;
 }
 
-#home-form {
+header {
+    text-align: center;
     display: grid;
-    place-items: center; 
-    font-size: 1.3em;
-    padding-top: 10em;
+    place-items: center;
     h1 {
-        background-color: #3d74a7;
-        color: white;
-        padding: 0.5em 1em 0.5em;
+        border: solid #d0181f 5px;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        display: grid;
+        place-items: center;
+        color: #10428b;
+        font-size: 2em;
     }
-    form {
-        font-size: 1.4em;
-        input[type=text] {
-            border: solid #3d74a7 2px;
-            padding: 0.3em;
-        }
-        input[type=text]:focus {
-            background-color: #e0e0e0;
-        }
-        input[type=submit] {
-            border: solid #3d74a7 1px;
-            background-color: #3d74a7;
-            padding: 0.2em 0.4em 0.2em;
-            color: white;
-            cursor: pointer;
-        }
+    #title {
+        text-decoration: none;
+        color: #10428b;
     }
 }
 
-#definition-header {
+#word-form {
     text-align: center;
-    background-color: #3d74a7;
-    padding: 0.5em;
-    font-size: 1.3em;
-    a {
-        color: white;
-        text-decoration: none;
+    input[type=text] {
+        font-size: 1.7em;
+        border: solid #10428b;
     }
-    a:hover {
-        opacity: 0.5;
+    input[type=submit] {
+        margin-top: 1em;
+        font-size: 1.5em;
+        border: solid #d0181f 2px;
+        border-radius: 15px;
+        background-color: #fefefe;
+        color: #10428b;
+        padding: 0.3em;
     }
 }
 
 #wrapper {
     font-size: 1.2em;
-    #word {
-        text-align: center;
-        font-size: 1.8em;
-    }
-    #info {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-    }
-    p {
-        text-align: left;
-    }
+    display: grid;
+    place-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .data {
