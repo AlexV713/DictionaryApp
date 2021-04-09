@@ -4,44 +4,34 @@ body {
   background-color: #fefefe;
 }
 
-#form-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 600px;
+#home-form {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
   font-size: 1.3em;
+  padding-top: 10em;
 }
 
-#form-header h1 {
+#home-form h1 {
   background-color: #3d74a7;
   color: white;
   padding: 0.5em 1em 0.5em;
 }
 
-#form-header form {
+#home-form form {
   font-size: 1.4em;
 }
 
-#form-header form input[type=text] {
+#home-form form input[type=text] {
   border: solid #3d74a7 2px;
   padding: 0.3em;
 }
 
-#form-header form input[type=text]:focus {
+#home-form form input[type=text]:focus {
   background-color: #e0e0e0;
 }
 
-#form-header form input[type=submit] {
+#home-form form input[type=submit] {
   border: solid #3d74a7 1px;
   background-color: #3d74a7;
   padding: 0.2em 0.4em 0.2em;
@@ -72,7 +62,6 @@ body {
 #wrapper #word {
   text-align: center;
   font-size: 1.8em;
-  text-decoration: underline;
 }
 
 #wrapper #info {

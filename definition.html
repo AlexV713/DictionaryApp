@@ -30,11 +30,10 @@
                     <h1 id="title"><a href="index.html">Merriam Webster Dictionary</a></h1>
                 </header>
                 <div id="wrapper">
-                    <h2 id="word">{{ info.data[1].hwi.hw }}</h2>
+                    <h2 id="word">{{ info.data[0].hwi.hw }}</h2>
                     <div id="info">
-                        <p><strong>Definition 1:</strong> {{ info.data[0].shortdef[0] }}</p>
-                        <p><strong>Definition 2:</strong> {{ info.data[0].shortdef[1] }}</p>
-                        <p><strong>pronunciation:</strong> {{ info.data[0].hwi.hw }}</p>
+                        <p><strong>1.</strong> {{ info.data[0].shortdef[0] }}</p>
+                        <p><strong>2.</strong> {{ info.data[0].shortdef[1] }}</p>
                         <p id="stems"><strong>Stems:</strong> {{ info.data[0].meta.stems[1] }},
                             {{ info.data[0].meta.stems[2] }}</p>
                         <p><strong>Word Class:</strong> {{ info.data[0].fl }}</p>
