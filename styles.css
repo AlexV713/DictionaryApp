@@ -16,8 +16,8 @@ header {
 header h1 {
   border: solid #d0181f 5px;
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -35,7 +35,7 @@ header #title {
 }
 
 #word-form input[type=text] {
-  font-size: 1.7em;
+  font-size: 1.5em;
   border: solid #10428b;
 }
 
